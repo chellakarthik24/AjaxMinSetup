@@ -1,4 +1,4 @@
-set msiPath=C:\Users\c-kchella\Desktop\AjaxMinSetup.msi
+set msiPath=%workspace%\AjaxMinSetup.msi
 echo NODE_NAME: %NODE_NAME%
 echo computername: %computername%
 For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set mydate=%%a-%%b-%%c)
